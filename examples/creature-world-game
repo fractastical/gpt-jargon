@@ -1,0 +1,18 @@
+# Also created by Jar(gon)vis after a couple iterations to simulate a world and create a game that with winning conditions. Game name also comes from Jar(gon)vis
+
++++ creature-world-game
+- Create an empty world called "World"
+- Ask the user to input the number of creatures to populate the world
+- Populate the world with the specified number of creatures, each with a random type (e.g., bird, fish, mammal)
+- Display the initial state of the world
+- {
+    * For each simulation step:
+        - Choose two random creatures
+        - If they are of the same type, they form a group
+        - If they are of different types, one creature moves to a new location
+    * Repeat the simulation steps for a specified number of iterations (e.g., 10)
+}
+- Display the final state of the world
+- Determine the largest group of creatures and its type
+- Announce the winning creature type based on the largest group
++++
