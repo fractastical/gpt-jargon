@@ -1,0 +1,35 @@
++++ pirate-game
+
+A pirate can move up, down, left, or right
+The pirate gains 1 point for each gold piece collected
+The game lasts for 10 turns
+Create a 10x10 grid
+Place a pirate ship at a random position on the grid
+Place 4 pieces of gold at random positions on the grid, not overlapping with the pirate ship or each other
+Initialize a variable called score to 0
+For 10 turns:
+{
+Move the pirate ship in a random direction (up, down, left, or right), making sure it stays within the grid boundaries
+If the pirate ship moves onto a position containing a gold piece, increment the score by 1 and remove the gold piece from the grid
+}
+After 10 turns, return the final score
++++
+/execute pirate-game
+
+
++++ average-score
+
+Run pirate-game 10 times and compute the average score
+Initialize a variable called total_score to 0
+For 10 iterations:
+{
+Execute game-result-only and add the result to total_score
+}
+Compute the average score by dividing total_score by 10
+Return the average score
++++
+/execute average-score
+
+# average score result was 1.6 for me
+
+
