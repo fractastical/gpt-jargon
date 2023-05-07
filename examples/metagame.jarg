@@ -1,0 +1,10 @@
++++ metagame($gameName)
+-- 1. Check if $gameName is a valid and implementable game
+--   1.1. If it is, proceed to step 2
+--   1.2. If not, inform the user that the game is out of scope
+-- 2. Provide the Jargon code for the specified game
+--   2.1. If the game can be implemented in less than 50 lines of JavaScript, provide the JavaScript code
+--   2.2. If the game cannot be implemented in less than 50 lines of JavaScript, inform the user that the game is too complex for this constraint
+-- 3. If the game has been implemented in Javascript provide a test Javascript that can be used to run through one user's set of actions to create a winning condition for the game
+-- 4. If the game has been implemented in Javascript and has losing conditions provide test Javascript that can be used to run through one user's set of actions to create a losing condition for the game
++++
